@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
 		c = a - b; // minus - prevzate z pullu
 		c = a * a;
 		
+		int d; // lokalna zmena pred branchom a po edite na githube v mastrovi
 	}
 
 	@Override
