@@ -23,7 +23,6 @@ public class MainActivity extends Activity {
 		
 		int d; // lokalna zmena pred branchom a po edite na githube v mastrovi
 		int masterBranch = 0;
-		masterBranch++;
 		
 	}
 
