@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 		int masterBranch = 0;
 		masterBranch--; // decrement
 		
+		boolean finallyMerged = true;
 	}
 
 	@Override
