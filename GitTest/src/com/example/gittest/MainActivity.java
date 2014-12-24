@@ -24,6 +24,10 @@ public class MainActivity extends Activity {
 		int newBranch = 1;
 		
 	}
+	
+	public void myBranchFunction() {
+		b = 7;
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
