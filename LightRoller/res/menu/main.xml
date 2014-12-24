@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+	  <item
+	      android:id="@+id/action_connection_dialog"
+	      android:title="Connection dialog"
+	      android:icon="@android:drawable/ic_menu_share"
+		  app:showAsAction="always" />
+
+	  <!-- 
+	  <item
+	      android:id="@+id/action_discovery"
+	      android:title="Discovery devices"
+	      android:icon="@android:drawable/ic_menu_search"
+	      android:visible="false"
+	      app:showAsAction="always" />
+	  -->	      
+  	
+	  <item
+	      android:id="@+id/action_more"
+	      android:title="More"
+	      android:icon="@drawable/ic_action_overflow"
+	      app:showAsAction="always">
+		  <menu>
+			
+			  <item
+			      android:id="@+id/action_remove_screen"
+			      android:title="Remove screen"
+			      android:icon="@android:drawable/ic_menu_close_clear_cancel"
+			      android:visible="false"
+				  app:showAsAction="always" />
+			  
+			  <item
+			      android:id="@+id/action_add_screen"
+			      android:title="Add screen"
+			      android:icon="@android:drawable/ic_menu_add"
+			      android:visible="false"
+			      app:showAsAction="always" />
+
+			  <item
+			      android:id="@+id/action_toggle_controls_visibility"
+			      android:title="Toggle controls"
+			      android:icon="@android:drawable/ic_menu_view"
+			      android:visible="false"
+				  app:showAsAction="always" />
+			  			  
+			  <item
+			      android:id="@+id/action_load_last_config"
+			      android:title="Load last config"
+			      android:icon="@android:drawable/ic_menu_myplaces"
+			      android:visible="false"
+				  app:showAsAction="always" />
+			  			  
+			  <item
+			      android:id="@+id/action_toggle_orientation_lock"
+			      android:title="Lock orientation"
+			      android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+				  app:showAsAction="always" />
+			  
+			  <item
+			      android:id="@+id/action_add_shortcut"
+			      android:title="Create device shortcut"
+			      android:icon="@android:drawable/ic_menu_directions"
+			      android:visible="false"
+				  app:showAsAction="always" />
+
+			  <item
+			      android:id="@+id/action_exit"
+			      android:title="Exit"
+			      android:icon="@android:drawable/ic_menu_revert"
+				  app:showAsAction="always" />
+			  
+		</menu>    
+	</item>
+</menu>
