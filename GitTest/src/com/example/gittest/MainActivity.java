@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 
 		// ZMENA 6
 		
-		c = a + b;
+		c = a - b; // minus - prevzate z pullu
 		c = a * a;
 		
 	}
