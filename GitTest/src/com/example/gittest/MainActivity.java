@@ -22,10 +22,14 @@ public class MainActivity extends Activity {
 		c = a * a;
 		
 		int d; // lokalna zmena pred branchom a po edite na githube v mastrovi
-		int masterBranch = 0;
+		int masterBranch = 1;
 		masterBranch--; // decrement
 		
 		boolean finallyMerged = true;
+	}
+	
+	public void myBranchFunction() {
+		b = 7;
 	}
 
 	@Override
