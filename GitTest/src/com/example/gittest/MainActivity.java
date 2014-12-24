@@ -19,6 +19,8 @@ public class MainActivity extends Activity {
 		// ZMENA 6
 		
 		c = a + b;
+		c = a * a;
+		
 	}
 
 	@Override
