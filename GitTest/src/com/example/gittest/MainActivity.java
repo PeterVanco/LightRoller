@@ -7,6 +7,10 @@ import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 
+	int a = 5;
+	int b = 6;
+	int c;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -14,8 +18,7 @@ public class MainActivity extends Activity {
 
 		// ZMENA 6
 		
-		
-		
+		c = a + b;
 	}
 
 	@Override
