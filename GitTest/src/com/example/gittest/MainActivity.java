@@ -23,7 +23,6 @@ public class MainActivity extends Activity {
 		
 		int newBranch = 1;
 		
-		boolean finallyMerged = true;
 	}
 	
 	public void myBranchFunction() {
