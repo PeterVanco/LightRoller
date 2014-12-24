@@ -16,18 +16,11 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		// ZMENA 6
-		
-		c = a - b; // minus - prevzate z pullu
-		c = a * a;
-		
-		int newBranch = 1;
-		
-		boolean finallyMerged = true;
+		// FIXED BRANCH
 	}
 	
-	public void myBranchFunction() {
-		b = 7;
+	public void myBranchFunctionFixed() {
+		b = 8;
 	}
 
 	@Override
