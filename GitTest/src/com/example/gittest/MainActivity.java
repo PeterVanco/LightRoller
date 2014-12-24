@@ -21,6 +21,8 @@ public class MainActivity extends Activity {
 		c = a - b; // minus - prevzate z pullu
 		c = a * a;
 		
+		int newBranch = 1;
+		
 	}
 
 	@Override
